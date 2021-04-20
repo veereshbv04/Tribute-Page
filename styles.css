@@ -12,11 +12,17 @@ body{
     margin: 0rem;
 }
 
+#image{
+    { height: 250px; width: 250px; }
+    
+}
+
 img{
    width: 100%; 
    max-width: 500px;
    display: block;
    margin: auto;
+   border-radius: 2rem;
    
 }
 
@@ -25,8 +31,16 @@ img{
 }
 
 h1{
+    padding: 2.5rem;
     text-align: center;
     color: blue;
+}
+
+#walking-god{
+
+   padding: 0.1%;
+    color: rgb(9, 5, 252);
+    
 }
 
 h3{
@@ -40,12 +54,17 @@ p{
 .heading{
     background-color:rgb(243, 123, 53);
     max-width: 100%;
-    
+    height: 10rem;
 }
 
 ul{
+    /* max-width: 550px; */
+    max-width: 650px;
     background-color: rgb(206, 201, 201);
     border-radius: 3rem;
+    margin: 0 auto 50px auto;
+    padding-inline-start: 40px;
+    line-height: 1.6;
 }
 /* .ul {
     padding: 10rem;
@@ -62,14 +81,16 @@ ul blockquote{
 
 .section{
     padding: 2rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
     margin: auto;
-    /* background-color: ; */
+    max-width: 100%;
 }
 .section .ul{
     text-align: center;
     margin: auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 #tribute-link{
@@ -78,8 +99,9 @@ ul blockquote{
 
 
 footer{
+    height: fit-content;
     background-color: chartreuse;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     text-align: center;
 }
 .non-bullet{
@@ -88,4 +110,9 @@ footer{
 
 #linkedin-link{
     text-decoration: none;
+}
+
+#linkedin{
+    padding-top: 2rem;
+    padding: 1rem;
 }
