@@ -40,6 +40,7 @@ p{
 .heading{
     background-color:rgb(243, 123, 53);
     max-width: 100%;
+    
 }
 
 ul{
@@ -54,11 +55,16 @@ ul blockquote{
     background-color: rgb(255, 166, 0);
     border-top-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
+
 }
 
 
+
 .section{
-    padding: 5rem;
+    padding: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
     /* background-color: ; */
 }
 .section .ul{
@@ -69,7 +75,6 @@ ul blockquote{
 #tribute-link{
     text-decoration: none;
 }
-
 
 
 footer{
