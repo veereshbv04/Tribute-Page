@@ -9,20 +9,30 @@
 
 body{
     font-family: 'Lexend', sans-serif;
-    margin: 2rem;
+    margin: 0rem;
 }
 
 img{
-   max-width: 100%;
+   width: 100%; 
+   max-width: 500px;
    display: block;
    margin: auto;
    
+}
+
+#img-caption{
+    color: rgb(26, 135, 238);
 }
 
 h1{
     text-align: center;
     color: blue;
 }
+
+h3{
+    text-align: center;
+}
+
 p{
     text-align: center;
 }
@@ -34,7 +44,11 @@ p{
 
 ul{
     background-color: rgb(206, 201, 201);
+    border-radius: 3rem;
 }
+/* .ul {
+    padding: 10rem;
+} */
 
 ul blockquote{
     background-color: rgb(255, 166, 0);
@@ -43,9 +57,30 @@ ul blockquote{
 }
 
 
+.section{
+    padding: 5rem;
+    /* background-color: ; */
+}
+.section .ul{
+    text-align: center;
+    margin: auto;
+}
+
+#tribute-link{
+    text-decoration: none;
+}
+
+
 
 footer{
     background-color: chartreuse;
     padding: 2rem 1rem;
     text-align: center;
+}
+.non-bullet{
+    list-style: none;
+}
+
+#linkedin-link{
+    text-decoration: none;
 }
