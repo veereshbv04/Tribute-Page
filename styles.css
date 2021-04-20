@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap');
+
+/* 
+:root{
+    --primary-color:#6BF4F3;
+    --purple-header-color:#6D28D9;
+    --off-white:#E5E7EB;
+} */
+
+body{
+    font-family: 'Lexend', sans-serif;
+    margin: 2rem;
+}
+
 img{
    max-width: 100%;
    display: block;
