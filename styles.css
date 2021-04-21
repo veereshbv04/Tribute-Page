@@ -1,63 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap');
 
 
-:root{
-    --primary-color:#ee9038;
-    --purple-header-color:#d6d928;
-    --off-white:#E5E7EB;
+:root {
+    --primary-color: #ee9038;
+    --purple-header-color: #d6d928;
+    --off-white: #E5E7EB;
 }
 
-body{
+body {
     font-family: 'Lexend', sans-serif;
     margin: 0rem;
 }
 
-#image{
-    { height: 250px; width: 250px; }
+#image {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
     
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: auto;
+    border-radius: 2rem;
+
 }
 
-img{
-   width: 100%; 
-   max-width: 500px;
-   display: block;
-   margin: auto;
-   border-radius: 2rem;
-   
-}
-
-#img-caption{
+#img-caption {
     color: rgb(26, 135, 238);
 }
 
-h1{
+h1 {
     padding: 2.5rem;
     text-align: center;
     color: blue;
 }
 
-#walking-god{
+#walking-god {
 
-   padding: 0.1%;
+    padding: 0.1%;
     color: rgb(9, 5, 252);
-    
+
 }
 
-h3{
+h3 {
     text-align: center;
 }
 
-p{
+p {
     text-align: center;
 }
 
-.heading{
-    background-color:rgb(243, 123, 53);
+.heading {
+    background-color: rgb(243, 123, 53);
     max-width: 100%;
     height: 10rem;
 }
 
-ul{
+ul {
     /* max-width: 550px; */
     max-width: 650px;
     background-color: rgb(206, 201, 201);
@@ -66,11 +67,12 @@ ul{
     padding-inline-start: 40px;
     line-height: 1.6;
 }
+
 /* .ul {
     padding: 10rem;
 } */
 
-ul blockquote{
+ul blockquote {
     background-color: rgb(255, 166, 0);
     border-top-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
@@ -79,40 +81,42 @@ ul blockquote{
 
 
 
-.section{
+.section {
     padding: 2rem;
     padding-left: 5rem;
     padding-right: 5rem;
     margin: auto;
     max-width: 100%;
 }
-.section .ul{
+
+.section .ul {
     text-align: center;
     margin: auto;
     padding-left: 5rem;
     padding-right: 5rem;
 }
 
-#tribute-link{
+#tribute-link {
     text-decoration: none;
 }
 
 
-footer{
+footer {
     height: fit-content;
     background-color: chartreuse;
     padding: 1rem 1rem;
     text-align: center;
 }
-.non-bullet{
+
+.non-bullet {
     list-style: none;
 }
 
-#linkedin-link{
+#linkedin-link {
     text-decoration: none;
 }
 
-#linkedin{
+#linkedin {
     padding-top: 2rem;
     padding: 1rem;
 }
